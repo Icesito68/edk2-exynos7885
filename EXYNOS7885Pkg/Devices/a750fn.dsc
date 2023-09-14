@@ -12,7 +12,7 @@
 !include EXYNOS7885Pkg/EXYNOS7885Pkg.dsc
 
 [PcdsFixedAtBuild.common]
-  # System Memory (1.5GB)
+  # System Memory (3.5GB)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x80000000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x80C00000
